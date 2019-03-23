@@ -1,2 +1,5 @@
 a,b=map(int,input().split())
-print(a**b)
+n=1
+for i in range(1,b+1):
+    n=a*n
+print(n)
